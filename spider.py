@@ -12,7 +12,9 @@ class TecentRecurit:
                          'AppleWebKit/537.36 (KHTML, like Gecko) '
                          'Chrome/69.0.3497.100 Safari/537.36'
         }
-'''请求头'''
+'''请求头
+    user-agent
+'''
     def get_url(self):
         url_lists = []
         for i in range(283):
